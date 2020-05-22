@@ -1,0 +1,13 @@
+@use 'config';
+
+body {
+    background-color: $primary;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}

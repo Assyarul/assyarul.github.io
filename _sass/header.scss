@@ -1,0 +1,19 @@
+@use 'config';
+
+.navbar { 
+    background-color: $secondary2;
+    height: 5rem;
+
+}
+.menu{
+    display:flex;
+    list-style-type:none;
+    justify-content: flex-end;
+    padding:0;
+    margin:0;
+}
+
+.menu-item {
+    padding: 15px;
+    color: $secondary3;
+}

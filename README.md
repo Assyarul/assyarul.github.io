@@ -10,5 +10,12 @@
 ## Built With
 * [Jekyll](https://jekyllrb.com/) - A Static Website Generator
 
+## Assets Used
+1. Icons
+    * Home Icon: https://icons8.com/icons/set/svg-home
+
+## Tutorials That Helped Along the Way
+1. [*Animated Responsive Navbar with CSS - Plus Other Useful Tricks*]() by Fireship
+    Navbar was made with guidance from this video. Changed to fit to my site's theme. 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
