@@ -12,7 +12,10 @@
 
 ## Assets Used
 1. Icons
-    * Home Icon: https://icons8.com/icons/set/svg-home
+    * Home Icon: https://icons8.com/icon/59809/home
+    * Blog Icon: https://icons8.com/icon/1896/google-blog-search
+    * Projects Icon: https://icons8.com/icon/3141/idea
+    * About Icon: https://icons8.com/icon/84060/about
 
 ## Tutorials That Helped Along the Way
 1. [*Animated Responsive Navbar with CSS - Plus Other Useful Tricks*](https://www.youtube.com/watch?v=biOMz4puGt8&t=56s) by Fireship.

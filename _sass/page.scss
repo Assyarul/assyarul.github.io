@@ -1,13 +1,46 @@
+//default page layout. css
 @use 'config';
 
+:root {
+    font-size: 16px;
+    font-family: $font-stack;
+}
+
 body {
-    background-color: $primary;
+    background-color: $primary1;
     color: $text-color;
     margin: 0;
     padding: 0;
+
+    .title{
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    &::-webkit-scrollbar {
+        width:0.25rem
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $primary4
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $primary2
+    }
+}
+
+.page-container {
+    position: relative;
+    min-height:100vh;
+}
+
+.content-wrap {
+    padding-bottom: 10rem;
 }
 
 main {
     margin-left: 5rem;
+    margin-right:10rem;
     padding: 1rem;
 }
