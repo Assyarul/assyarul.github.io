@@ -3,10 +3,10 @@
 
 :root {
     font-size: 16px;
-    font-family: $font-stack;
 }
 
 body {
+    font-family: $font-stack;
     background-color: $primary1;
     color: $text-color;
     margin: 0;
@@ -22,11 +22,13 @@ body {
     }
 
     &::-webkit-scrollbar-track {
-        background: $primary4
+        background: $scrolltrack-color;
+        
     }
 
     &::-webkit-scrollbar-thumb {
-        background: $primary2
+        background: $scrollbar-color;
+        border-radius: 8px;
     }
 }
 
@@ -36,6 +38,7 @@ body {
 }
 
 .content-wrap {
+    padding-top:5rem;
     padding-bottom: 10rem;
 }
 

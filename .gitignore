@@ -9,3 +9,7 @@ Gemfile.lock
 ### Ruby bundler ###
 .bundle/
 vendor/
+
+
+### assets that are not relevant ###
+assets/images/
