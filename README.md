@@ -18,6 +18,8 @@
     * About Icon: https://icons8.com/icon/84060/about
     * Github Icon: https://icons8.com/icon/106564/github
     * LinkedIn Icon: https://icons8.com/icon/446/linkedin
+2. Images
+    * Title Background Image **(temp)**: https://unsplash.com/photos/Zt5KC97bAHQ
 
 ## Tutorials That Helped Along the Way
 1. [**Animated Responsive Navbar with CSS - Plus Other Useful Tricks**](https://www.youtube.com/watch?v=biOMz4puGt8&t=56s) by Fireship.

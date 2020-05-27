@@ -10,6 +10,3 @@ Gemfile.lock
 .bundle/
 vendor/
 
-
-### assets that are not relevant ###
-assets/images/

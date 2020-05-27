@@ -1,0 +1,5 @@
+projects:
+  - title: test-project-1
+    img: /path/to/img
+    desc: This is a test project.
+
