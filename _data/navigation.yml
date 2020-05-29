@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+  icon: /Icons/home-icon.html
+- name: Blog
+  link: /blog/index.html
+  icon: /Icons/blog-icon.html
+- name: Project
+  link: /project/index.html
+  icon: /Icons/projects-icon.html
+- name: About
+  link: /about/index.html
+  icon: /Icons/about-icon.html

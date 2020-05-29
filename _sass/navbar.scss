@@ -1,5 +1,9 @@
 @use 'config';
 
+.navbar-container{
+    height:3.5rem;
+    display:block;
+}
 .navbar { 
     background-color: $primary2;
     position: absolute;
