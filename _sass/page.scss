@@ -1,6 +1,11 @@
 //default page layout. css
 @use 'config';
 
+*{
+    margin:0;
+    padding:0;
+}
+
 body {
     font-family: $font-stack;
     background-color: $primary1;

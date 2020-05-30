@@ -12,22 +12,25 @@ layout: page
     </div>
 </div>
 
-<h1>Recent Blog Posts</h1>
-<section>
-    <div class="grid-container">
-        <a href="#" class="link-box"><div class="post-title">Post 1</div><div class="post-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores beatae ea aperiam saepe. Excepturi nobis, non quae odio similique sint.</div></a>
-        <a href="#" class="link-box"><div class="post-title">Post 2</div><div class="post-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, esse. Officia sapiente veniam ut quia officiis? Maiores officia exercitationem laboriosam!</div></a>
-        <a href="#" class="link-box"><div class="post-title">Post 3</div><div class="post-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita magni ipsam iste explicabo doloribus cupiditate culpa, est consequuntur. Cupiditate, adipisci?</div></a>
-    </div> 
-    <a href="#" class="more-link"> More...</a>
-</section>
-    
-<h1>Ongoing Projects</h1>
-<section>
-    <div class="grid-container">
-        <a href="#" class="link-box"><div class="post-title">Project 1</div><div class="post-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores beatae ea aperiam saepe. Excepturi nobis, non quae odio similique sint.</div></a>
-        <a href="#" class="link-box"><div class="post-title">Project 2</div><div class="post-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, esse. Officia sapiente veniam ut quia officiis? Maiores officia exercitationem laboriosam!</div></a>
-        <a href="#" class="link-box"><div class="post-title">Project 3</div><div class="post-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita magni ipsam iste explicabo doloribus cupiditate culpa, est consequuntur. Cupiditate, adipisci?</div></a>
-    </div>
-    <a href="#" class="more-link"> More...</a>
-</section>
+<div class='landing-content'>   
+    <section>
+        <h1>Recent Blog Posts</h1>
+        <div class="grid-container">
+            {% for post in site.posts limit:3 %}
+                <a href="{{post.url}}" class="link-box"><div class="post-title">{{post.title}}</div><div class="post-desc">{{post.excerpt|truncatewords:50}}</div></a>
+            {% endfor %}
+        </div>
+        <a href="/blog/" class="more-link"> More...</a>
+    </section>
+        
+    <section>
+        <h1>Ongoing Projects</h1>
+        <div class="grid-container">
+            {% for project in site.data.projects limit:3%}
+                <a href="{{project.link}}" class="link-box"><div class="post-title">{{project.title}}</div><div class="post-desc">{{project.desc}}</div></a>
+            {% endfor %}
+        </div>
+        {% assign project-url = site.data.navigation[Project] %}
+        <a href="/project/" class="more-link"> More...</a>
+    </section>
+<div class='landing-content'>   

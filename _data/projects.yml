@@ -1,5 +1,10 @@
-projects:
-  - title: test-project-1
-    img: /path/to/img
-    desc: This is a test project.
+- title: test-project-1
+  img: /path/to/img
+  desc: This is a test project.
+  link: project-1/
+- title: test-project-2
+  img: /path/to/img2
+  desc: This is a test project 2.
+  link: project-2/
+
 
