@@ -1,7 +1,5 @@
-@use 'config';
-
 footer {
-    background-color: $primary3;
+    background-color: $footer-color;
     position:absolute;
     bottom: 0;
     left:0;
@@ -21,6 +19,9 @@ footer {
     font-weight:bold;
     margin: 0 5px;
 
+    p{
+        margin: 5px 0;
+    }
     ul{
         padding:0;
         margin:0;
@@ -43,9 +44,12 @@ footer {
 
 .footer-bottom {
     position:absolute;
-    background-color: $primary3;
+    background-color: $footer-color;
     filter:brightness(0.7);
     bottom:0;
     width:100%;
-    height:2rem;
+}
+
+.footer-bottom-content {
+    margin: 5px;
 }

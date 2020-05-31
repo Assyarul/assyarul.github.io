@@ -1,19 +1,35 @@
-//font-related
-$font-size: 16px;
-$font-stack: "Times New Roman", Times, serif;
-$text-color: black;
-
-//color
+//color-palette
 $primary1: #85DCB1;
 $primary2: #E8A87C;
 $primary3: #C38D9E;
 $primary4: #41B3A3;
 
-$title-text-colour: white;
+//default font-related
+$font-size: 16px;
+$font-stack: "Times New Roman", Times, serif;
+$text-color: black;
+
+//default-settings
+$background-color: $primary1;
+
+//navbar
+$navbar-color: $primary2;
+$menu-color: $primary1;
+
+//footer
+$footer-color: $primary3;
+
+//landing page
+$title-text-color: white;
+$title-text-size: 2.5vw;
+$box-text-color: #fff;
+
+//scrollbar
 $scrollbar-color: gray;
 $scrolltrack-color: white;
 
 //animation-related
 $transition-speed: 200ms;
+$navbar-transition: 200ms;
 
 

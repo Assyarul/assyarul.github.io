@@ -1,16 +1,14 @@
-@use 'config';
-
 .navbar-container{
     height:3.5rem;
     display:block;
 }
 .navbar { 
-    background-color: $primary2;
+    background-color: $navbar-color;
     position: absolute;
     width: 100%;
     height: 3.5rem;
     z-index: 1;
-    transition: height $transition-speed ease;
+    transition: height $navbar-transition ease;
     &:hover {
         height: 5rem;
 
@@ -40,8 +38,8 @@
     text-decoration: none;
     align-items:center;
     height: 5rem;
-    color: $primary1;
-    transition: $transition-speed;
+    transition: $navbar-transition;
+    color: $menu-color;
 
     .text-link {
         display: none;
