@@ -1,12 +1,13 @@
 //color-palette
-$primary1: #85DCB1;
-$primary2: #E8A87C;
+$primary1: rgb(211, 199, 199);
+$primary2: rgb(48, 46, 46);
 $primary3: #C38D9E;
 $primary4: #41B3A3;
 
 //default font-related
+$font-base: "Roboto", sans-serif;
+$font-title: 'Arvo', Arial;
 $font-size: 16px;
-$font-stack: "Times New Roman", Times, serif;
 $text-color: black;
 
 //default-settings

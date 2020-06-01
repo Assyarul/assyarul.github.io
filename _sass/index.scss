@@ -1,10 +1,15 @@
 .title{
     max-width: 100vw;
-    height: 100vh;
     position: relative;
     color: $title-text-color;
     text-overflow: ellipsis;
     overflow: hidden;
+    img{
+        width:100vw;
+        object-fit: cover;
+        object-position: 0 -50px;
+    }
+
 
     .title-text{
         h1{
@@ -40,8 +45,19 @@ section{
     }
 
     .more-link{
-        margin:1rem 0;
-        
+        margin: 10px;
+        font-weight:bold;
+        color:black;
+        border: black solid;
+        display: inline-block;
+        padding: 15px 32px;
+        text-decoration: none;
+        text-align: centre;
+
+        &:hover{
+            color:white;
+            background-color:black;
+        }
     }
 
 }

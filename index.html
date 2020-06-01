@@ -20,7 +20,7 @@ layout: page
                 <a href="{{post.url}}" class="link-box"><div class="post-title">{{post.title}}</div><div class="post-desc">{{post.excerpt|truncatewords:50}}</div></a>
             {% endfor %}
         </div>
-        <a href="/blog/" class="more-link"> More...</a>
+        <a href="/blog/" class="more-link"> Show All Blog Posts</a>
     </section>
         
     <section>
@@ -31,6 +31,6 @@ layout: page
             {% endfor %}
         </div>
         {% assign project-url = site.data.navigation[Project] %}
-        <a href="/project/" class="more-link"> More...</a>
+        <a href="/project/" class="more-link"> Show All Projects</a>
     </section>
 </div>
