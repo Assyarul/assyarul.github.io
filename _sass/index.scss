@@ -71,6 +71,7 @@ section{
     justify-content: center;
     background: #353535;
     font-size:3rem;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: $box-text-color;
     box-shadow: rgba(3,8,20, 1.0) , rgba(2,8,20,0.1) 0px 0.075rem, 0.175rem;
     height:100%;
@@ -79,12 +80,10 @@ section{
     border-radius: 4px;
     overflow: hidden;
     text-decoration: none;
+    transition: transform $transition-speed;
 
-    background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-
-    transition: transform $transition-speed;    
+    background-size: cover;
 
     .post-title{
         text-decoration: none;
@@ -102,6 +101,7 @@ section{
         box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
         transform:  scale(1.1);
         opacity: 1;
+        z-index: 1;
 
         .post-desc {
             visibility: visible;
