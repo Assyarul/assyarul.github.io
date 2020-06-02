@@ -1,8 +1,23 @@
 #blog-container {
-    padding: 2rem 3rem;
+    margin: 30px 140px;
 
 }
 
 .post-container{
-    margin: 1rem 0;
+    margin: 2rem 0;
+    overflow: hidden;
+
+    .date-container {
+        font-size:0.9rem;
+    }
+
+    img {
+        float: left;
+        object-fit: cover;
+        height: 120px;
+        width:120px;
+        padding-right: 10px;
+        
+    }
+    
 }

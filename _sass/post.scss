@@ -1,4 +1,28 @@
 #post-container {
-    padding: 20px;
+    margin: 30px 140px;
+    
+    .date{
+        font-size: 0.9rem;
+    }
+
+    .post-content{
+        margin: 30px;
+
+        p{
+            margin: 20px 10px;
+        }
+
+        figure{
+            margin:10px;
+            padding:5px;
+            background-color: $background-color;
+            font-weight: 600;
+            filter: brightness(0.9);
+            border: 1px solid black; 
+            border-radius: 8px;
+        }
+
+
+    }
 
 }
