@@ -1,12 +1,12 @@
 #post-container {
-    margin: 30px 140px;
+    margin: 30px 10%;
     
     .date{
         font-size: 0.9rem;
     }
 
     .post-content{
-        margin: 30px;
+        margin: 20px;
 
         p{
             margin: 20px 10px;
@@ -20,6 +20,7 @@
             filter: brightness(0.9);
             border: 1px solid black; 
             border-radius: 8px;
+            overflow: auto;
         }
 
 

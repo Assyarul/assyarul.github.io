@@ -2,7 +2,7 @@
 title:  "Welcome to Jekyll 2!"
 date:   2020-01-17 00:30:16 +0800
 categories: jekyll update
-cover: /assets/images/blog/post1.jpg/
+cover: /assets/images/blog/post1.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
