@@ -17,9 +17,10 @@ layout: page
         <h1>Recent Blog Posts</h1>
         <div class="grid-container">
             {% for post in site.posts limit:3 %}
-        <a href="{{post.url}}" class="link-box" style="background-image: url({{post.cover}})">
+            <a href="{{post.url}}" class="link-box" style="background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url({{post.cover}})">
                     <div class="post-title">{{post.title}}</div>
-                    <div class="post-desc">{{post.excerpt|truncatewords:50}}</div></a>
+                    <div class="post-desc">{{post.excerpt|truncatewords:30}}</div>
+            </a>
             {% endfor %}
         </div>
         <a href="/blog/" class="more-link"> Show All Blog Posts</a>

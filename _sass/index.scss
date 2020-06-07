@@ -65,29 +65,24 @@ section{
 
 
 .link-box{
+
     display:flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background: #353535;
     font-size:3rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: $box-text-color;
-    box-shadow: rgba(3,8,20, 1.0) , rgba(2,8,20,0.1) 0px 0.075rem, 0.175rem;
-    height:100%;
-    width:100%;
-    opacity:0.9;
     border-radius: 4px;
-    overflow: hidden;
     text-decoration: none;
     transition: transform $transition-speed;
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     .post-title{
         text-decoration: none;
+        text-align: center;
 
     }
     .post-desc{

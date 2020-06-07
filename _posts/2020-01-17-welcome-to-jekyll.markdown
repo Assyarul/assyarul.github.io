@@ -1,6 +1,5 @@
 ---
 title:  "Welcome to Jekyll 2!"
-date:   2020-01-17 00:30:16 +0800
 categories: jekyll update
 cover: /assets/images/blog/post1.jpg
 ---
