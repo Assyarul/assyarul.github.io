@@ -1,8 +1,8 @@
 - title: Basic Physics Engine
-  img: /
+  img: /assets/images/project/physicsCover.png
   desc: The physics engine that I am continuously changing to learn about simulating physics in a computer.
-  link: project-1/
-  live-code: live-project-1/
+  link: https://github.com/Assyarul/Particle-System
+  live-code: Particle-System
 
 
 

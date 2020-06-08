@@ -10,3 +10,5 @@ Gemfile.lock
 .bundle/
 vendor/
 
+### Website ###
+_drafts

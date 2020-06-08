@@ -30,7 +30,10 @@ layout: page
         <h1>Ongoing Projects</h1>
         <div class="grid-container">
             {% for project in site.data.projects limit:3%}
-                <a href="{{project.link}}" class="link-box"><div class="post-title">{{project.title}}</div><div class="post-desc">{{project.desc}}</div></a>
+                <a href="{{project.link}}" class="link-box"style="background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url({{project.img}})">
+                    <div class="post-title">{{project.title}}</div>
+                    <div class="post-desc">{{project.desc}}</div>
+                </a>
             {% endfor %}
         </div>
         {% assign project-url = site.data.navigation[Project] %}
