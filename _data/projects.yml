@@ -2,7 +2,11 @@
   img: /assets/images/project/physicsCover.png
   desc: The physics engine that I am continuously changing to learn about simulating physics in a computer.
   link: https://github.com/Assyarul/Particle-System
-  live-code: Particle-System
 
+- title: TSP Genetic Algorithm
+  img: /assets/images/project/tspCover.png
+  desc: Learning how to use genetic algorithm to solve hard problems.
+  link: https://github.com/Assyarul/GeneticTSP
+  
 
 
