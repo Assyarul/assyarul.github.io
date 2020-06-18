@@ -1,13 +1,18 @@
 #post-container {
+    display: flex;
+    justify-content: center;
     margin: 30px 10%;
+}
+
+.post-content {
     .date {
         font-size: 0.9rem;
+        margin-top :0;
     }
-    .post-content {
-        margin: 20px;
-        p {
-            margin: 20px 10px;
-        }
+    max-width: 600px;
+    margin: 20px;
+    p {
+        margin: 20px 10px;
     }
 }
 
